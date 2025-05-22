@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aposta de Valor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        main {
+            margin: 40px auto;
+            max-width: 800px;
+        }
+
+        main h2 {
+            margin-bottom: 20px;
+        }
+
+        main p {
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        button {
+            padding: 10px 25px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #00ffea;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aposta de Valor</h1>
+        <p>O primeiro Bot feito com IA que irá te fazer lucrar!</p>
+    </header>
+
+    <main>
+        <h2>Bem-vindo ao Aposta de Valor!</h2>
+        <p>Em breve, você terá acesso às melhores sugestões de apostas com valor esperado.</p>
+        <button onclick="contato()">Fale Conosco no WhatsApp</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aposta de Valor. Todos os direitos reservados.</p>
+        <p>Contato: <a href="https://wa.me/5511972150487" target="_blank">WhatsApp</a></p>
+    </footer>
+
+    <script>
+        function contato() {
+            window.open('https://wa.me/5511972150487', '_blank');
+        }
+    </script>
+</body>
+</html>
